@@ -1,10 +1,42 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>my first web application</title>
-	</head>
-	<body>
-		<h1>This is my first web application oh,i'm exited!!!</h1>
-	</body>
+
+    <head>
+        <title>FORM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="newcss.css">        
+    </head>
+    <body>
+        <form>
+           
+            <h1><u>HTML FORM</u></h1>
+          <label>Full Name:</label> 
+            <input type="text" size="38" placeholder="Enter your full name"/><br><br>
+            <label>Secrete Pin:</label>
+            <input type="password"   size="38" placeholder="Enter your secrete pin"/><br><br>
+            <label>Gender:</label>
+            <input type="radio" margin="3px solid red" name="male"/>male
+            <input type="radio" name="female"/>female<br><br>
+            <label>I am an expert in:</label>
+            <input type="checkbox"  name="HTML"/>HTML
+            <input type="checkbox" name="CSS"/>CSS<br><br>
+            <label>My field of study is:</label>
+             <select name="branch"  class="sele">
+             <option disabled selected>Select your branch using this select drop-down:</option> 
+             <option value="1">Computer science</option> 
+            <option value="2">Mechanical</option> 
+            <option value="3">Civil</option> 
+              <option value="4">Electronics and communications</option> 
+               <option value="5">Electrical</option>             
+             </select><br><br>
+             <label><span style="float:left;">Tell more about yourself:</span>
+           <span style="float:left;"><textarea rows="8" cols="40" name="Add"
+            placeholder="This is text area.Enter your description.  "></textarea></span>
+            </label><br><br>
+            <button type="botton" >Submit Form</button>
+           
+        </form>
+    
+    </body>
 </html>
-
-
