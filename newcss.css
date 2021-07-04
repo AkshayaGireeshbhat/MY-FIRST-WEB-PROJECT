@@ -1,0 +1,44 @@
+ 
+           label { display:inline-block; vertical-align:central; }
+
+           textarea { display:inline-block; vertical-align:middle; }
+           input[type=text]{
+               border:2px solid green;
+           }
+           input[type=password]{
+               border:2px solid green;
+           }
+            input[type='radio']{
+              outline: solid 3px green!important;
+           }
+           input[type=checkbox]{
+              outline:2px  solid green ;
+           }
+           form{
+               margin-right:auto;
+                margin-left:auto;
+               
+           }
+           button{
+               color:white;
+               background-color: blue;
+               cursor:pointer;
+               display:inline-block;
+               
+           }
+           textarea{
+               border:solid 2px green;
+           }
+           .sele{
+               border:solid 2px green;
+           }
+           body{
+               background-color:#FEFEF2;
+               margin: auto;
+               padding: 70px;
+               
+           }
+           label{
+               font-weight:700;
+           }
+           
